@@ -1,0 +1,133 @@
+{
+    "calamity.eye.squish": {
+    "sounds": [
+        "calamity:generator/squish"
+    ],
+    "subtitle": "calamity.subtitle.eye.squish"
+  },
+  "calamity.eye.release": {
+    "sounds": [
+        "calamity:generator/release"
+    ],
+    "subtitle": "calamity.subtitle.eye.release"
+  },
+  "calamity.announcer.countdown.1": {
+    "sounds": [
+      "calamity:announcer_test/1"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.countdown.2": {
+    "sounds": [
+      "calamity:announcer_test/2"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.countdown.3": {
+    "sounds": [
+      "calamity:announcer_test/3"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.countdown.4": {
+    "sounds": [
+      "calamity:announcer_test/4"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.countdown.5": {
+    "sounds": [
+      "calamity:announcer_test/5"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.match.countdown.start": {
+    "sounds": [
+      "calamity:announcer_test/match-begins-in-15-seconds"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.match.cancelled": {
+    "sounds": [
+      "calamity:announcer_test/match-cancelled"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.match.started": {
+    "sounds": [
+      "calamity:announcer_test/seek-glory-or-fall-to-calamity"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.enchanted.item": {
+    "sounds": [
+      "calamity:announcer_test/the-enemy-has-an-enchanted-item"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.lead.enemy": {
+    "sounds": [
+      "calamity:announcer_test/the-enemy-is-in-the-lead"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.announcer.lead.friendly": {
+    "sounds": [
+      "calamity:announcer_test/you-have-taken-the-lead"
+    ],
+    "subtitle": "calamity.subtitle.announcer"
+  },
+  "calamity.laugh": {
+    "sounds": [
+      "calamity:laugh"
+    ],
+    "subtitle": "calamity.subtitle.laugh"
+  },
+  "generator.start": {
+    "sounds": [
+      "calamity:generator/start"
+    ],
+    "subtitle": "calamity.generator.start"
+  },
+  "generator.tick": {
+    "sounds": [
+      "calamity:generator/tick"
+    ],
+    "subtitle": "calamity.generator.tick"
+  },
+  "generator.output": {
+    "sounds": [
+      "calamity:generator/output"
+    ],
+    "subtitle": "calamity.generator.output"
+  },
+  "generator.ready": {
+    "sounds": [
+      "calamity:generator/ready"
+    ],
+    "subtitle": "calamity.generator.ready"
+  },
+  "generator.effect.team": {
+    "sounds": [
+      "calamity:generator/effect_team"
+    ],
+    "subtitle": "calamity.generator.effect.team"
+  },
+  "generator.effect.attack": {
+    "sounds": [
+      "calamity:generator/effect_attack"
+    ],
+    "subtitle": "calamity.generator.effect.attack"
+  },
+  "generator.enchantment": {
+    "sounds": [
+      "calamity:generator/enchantment"
+    ],
+    "subtitle": "calamity.generator.enchantment"
+  },
+  "out.of.bounds": {
+    "sounds": [
+      "calamity:out-of-bounds"
+    ]
+  }
+}
