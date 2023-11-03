@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+issueTrackerURL="https://github.com/LoveTropics/pack-wrapper/issues"
+license="MPL2"
+
+[[mods]]
+modId="packwrapper"
+version="$mod_version"
+displayName="Pack Wrapper"
+displayURL="https://lovetropics.com"
+authors="LoveTropics"
+description='''
+Wraps an optional resource pack in a mod.
+'''
