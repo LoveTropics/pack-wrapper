@@ -30,7 +30,7 @@ public class EmbeddedPackSource implements RepositorySource {
 
     @Override
     public void loadPacks(final Consumer<Pack> consumer) {
-        final Path packRoot = modFile.getFilePath().resolve(type == PackType.CLIENT_RESOURCES ? "resourcepacks" : "datapacks");
+        final Path packRoot = modFile.findResource(type == PackType.CLIENT_RESOURCES ? "resourcepacks" : "datapacks");
         try (final Stream<Path> stream = Files.list(packRoot)) {
             final List<Path> paths = stream.toList();
             for (final Path path : paths) {
@@ -43,7 +43,7 @@ public class EmbeddedPackSource implements RepositorySource {
                 }
             }
         } catch (final IOException e) {
-            LOGGER.error("Could not list embedded mod packs");
+            LOGGER.error("Could not list embedded mod packs", e);
         }
     }
 }
